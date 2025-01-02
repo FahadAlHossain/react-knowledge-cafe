@@ -1,12 +1,13 @@
-import { useState } from 'react'
 import './App.css'
+import Blogs from './components/blogs/Blogs'
+import Header from './components/header/Header'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className='text-3xl bg-red-300'>Vite + React</h1>
+      <Header></Header>
+      <Blogs></Blogs>
     </>
   )
 }
